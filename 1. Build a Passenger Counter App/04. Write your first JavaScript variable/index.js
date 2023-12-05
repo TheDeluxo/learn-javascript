@@ -9,5 +9,4 @@ console.log(count)
 let myAge = 30;
 
 // 2. Log the myAge variable to the console
-
 console.log(myAge);
