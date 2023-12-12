@@ -6,9 +6,9 @@ let welcomeEl = document.getElementById("welcome-el")
 
 // Create two variables (name & greeting) that contains your name
 // and the greeting we want to render on the page
-let name = "Sapuncho"
+let Name = "Sapuncho"
 let greeting = "Hello, "
 
 // Render the welcome message using welcomeEl.innerText
-welcomeEl.inertText = greeting + name
-//document.getElementById("welcome-el").inertText = greeting + name
+welcomeEl.innerText = greeting + Name
+//document.getElementById("welcome-el").innerText = greeting + name
