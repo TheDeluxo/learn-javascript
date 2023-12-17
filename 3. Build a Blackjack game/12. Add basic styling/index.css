@@ -1,13 +1,20 @@
 /* Complete the CSS styling according to the provided design */
 
+/*selector by html tag*/
 body {
-    
+    background-image: url("images/table.png"); /*setting a background iamge*/
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* font stack. Chooses the first one available on the OS */
+    background-size: cover; /*setting the background image to vary according to the browser window size*/
+    /*text properties*/
+	text-align: center;
+    color: white;
+    font-weight: bold;
 }
-
+/*selector by html tag*/
 h1 {
     color: goldenrod;
 }
-
+/*selector by id*/
 #message-el {
-    
+    font-style: italic;
 }
