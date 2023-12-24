@@ -1,4 +1,4 @@
-// Objects - store data in-depth - composite / complex data type
+ // Objects - store data in-depth - composite / complex data type
 // key-value pairs
 
 let course = {
@@ -12,6 +12,6 @@ let course = {
 }
 
 
-console.log( course.tags )
+console.log( course.tags[0] )
 
 
