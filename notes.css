@@ -1,0 +1,67 @@
+/*selector by html tag*/
+body {
+    background-image: url("images/table.png"); /*setting a background iamge*/
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* font stack. Chooses the first one available on the OS */
+    background-size: cover; /*setting the background image to vary according to the browser window size*/
+    /*text properties*/
+	text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*selector by html tag*/
+h1 {
+    color: goldenrod;
+}
+/*selector by id*/
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+	margin-top: 2 px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	padding-top: 10px;
+	/*the above padding could be translated into this: */
+	padding: 10px 20px; /* top and bottom by left and right*/
+}
+
+input {
+    width: 100%;  /* takes up all the space of the container  */
+    padding-left: 10px;
+    padding-right: 10px;
+	padding-bottom: 10px;
+    padding-top: 10px;
+	/*the above padding could be translated into this: */
+	padding: 10px;
+	border: 1px solid #5f9341;
+    box-sizing: border-box; /* the text box will not get outside the container*/
+}
+
+/*Styling a unsorted list*/
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a { /*This will style all anchor tags across the document*/
+    color: #5f9341;
+}
+
+li a { /*This will stile only the anchor tags that are in any list <li></li> tag */
+    color: #5f9341;
+}

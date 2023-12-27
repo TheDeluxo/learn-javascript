@@ -1,0 +1,51 @@
+<!-- link css in html as link or file -->	
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      <link rel="stylesheet" href="index.css">
+</head>
+
+<!-- id and onclick are html attributes. onclick is event listener and does something (calling a func) when triggered-->
+<button id="increment-btn" onclick="increment()">Increment</button>
+
+<body>
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    <script>
+        //directly in the html doc:
+        //document.getElementById("count-el").innerText = "canko"  // for string
+        //document.getElementById("count-el").innerText = 9      // for number
+    </script>
+    <!-- or with external file-->
+    <script src="index.js"> </script>
+</body>
+
+<input type="text" id="input-el">  // it is void or self closing tag
+The <input> tag specifies an input field where the user can enter data.
+The <input> element is the most important form element.
+The <input> element can be displayed in several ways, depending on the type attribute.
+
+The different input types are as follows:
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text"> (default value)
+<input type="time">
+<input type="url">
+<input type="week">
+
+<!-- unsorted list with id="ul-el"-->
+<ul id="ul-el"></ul>
