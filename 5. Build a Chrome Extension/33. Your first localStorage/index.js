@@ -6,6 +6,9 @@ const ulEl = document.getElementById("ul-el")
 // 1. Save a key-value pair in localStorage
 // 2. Refresh the page. Get the value and log it to the console
 // 3. Clear localStorage
+localStorage.setItem("name", "Sapuncho")
+localStorage.getItem("name")
+localStorage.clear()
 
 // HINTS:
 // localStorage.setItem(key, value)

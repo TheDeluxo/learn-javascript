@@ -10,8 +10,10 @@ inputBtn.addEventListener("click", function() {
 
 // Render the leads in the unordered list using ulEl.textContent
 for (let i = 0; i < myLeads.length; i++) {
+    ulEl.textContent += "\n" + myLeads[i];
     console.log(myLeads[i])
 }
 
 
 
+ 
