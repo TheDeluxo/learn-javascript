@@ -154,3 +154,15 @@ myLeads.push("www.lead2.com")
 myLeads = JSON.stringify(myLeads)
 // Console.log the string using typeof to verify that it's a string
 console.log(typeof myLeads)
+
+_____________________________________________________________
+// truthy
+true and everithing else that has a value
+
+// falsy values
+false
+0
+"" //empty string
+let null -> how you as a developer signalize emptiness
+undefined -> how JavaScript signalizes emptiness. Usually returned in the console
+NaN // Not a Number
