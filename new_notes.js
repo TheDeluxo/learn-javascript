@@ -166,3 +166,13 @@ false
 let null -> how you as a developer signalize emptiness
 undefined -> how JavaScript signalizes emptiness. Usually returned in the console
 NaN // Not a Number
+
+// how to declare and call function with args
+let kuro = 12
+let sap = 12
+
+function render(arg1,arg2) {
+    console.log(arg1+arg1+arg2)
+}
+
+render(kuro,sap) // logs out 36
