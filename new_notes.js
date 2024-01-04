@@ -176,3 +176,17 @@ function render(arg1,arg2) {
 }
 
 render(kuro,sap) // logs out 36
+
+//functions can take array/s as argument
+function getFirst(arr){
+    return arr[0]
+}// function that returns the first item of an array
+
+console.log(getFirst([12,13,14]))  //prints 12 
+
+// how to access the value of the url key from here:
+const tabs = [
+    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
+]
+var = tabs[0].url
+console.log(var) // prints "https://www.linkedin.com/in/per-harald-borgen/"
